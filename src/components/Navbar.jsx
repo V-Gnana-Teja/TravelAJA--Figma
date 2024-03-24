@@ -14,16 +14,16 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center px-6 py-4">
-      <h1 className="text-3xl font-semibold text-black">travelaja</h1>
+      <h1 className="text-3xl font-semibold text-black cursor-pointer">travelaja</h1>
 
       <div className="flex items-center space-x-6 text-black">
         <ul className="flex items-center space-x-6">
-          <li className="hover:font-bold">Home</li>
-          <li className="hover:font-bold">Discover</li>
-          <li className="hover:font-bold">Services</li>
-          <li className="hover:font-bold">News</li>
-          <li className="hover:font-bold">About Us</li>
-          <li className="hover:font-bold">Contact</li>
+          <li className="hover:font-bold cursor-pointer">Home</li>
+          <li className="hover:font-bold cursor-pointer">Discover</li>
+          <li className="hover:font-bold cursor-pointer">Services</li>
+          <li className="hover:font-bold cursor-pointer">News</li>
+          <li className="hover:font-bold cursor-pointer">About Us</li>
+          <li className="hover:font-bold cursor-pointer">Contact</li>
         </ul>
       </div>
 
