@@ -3,9 +3,7 @@ import { HiOutlineChevronDown } from "react-icons/hi";
 import UkFlag from '../assets/images/uk-flag-circular-17883.png';
 import IndiaFlag from '../assets/images/india-flag-circular-17791.png';
 import { Link } from 'react-router-dom'; 
-
-
-const Navbar = () => {
+const DiscoverNavbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState("Language");
 
@@ -61,4 +59,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default DiscoverNavbar;

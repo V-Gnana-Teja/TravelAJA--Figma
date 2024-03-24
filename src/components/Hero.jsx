@@ -6,8 +6,8 @@ import { BiMap } from 'react-icons/bi';
 const Hero = () => {
   return (
     <div
-      className="bg-green-500 h-screen flex flex-col items-center justify-center text-white"
-      style={{ backgroundImage: `url(${Background})` }}
+      className="bg-green-500 h-screen flex flex-col items-center  justify-center text-white"
+      style={{ backgroundImage: `url(${Background})`  }}
     >
       <div className="text-center mb-8">
 

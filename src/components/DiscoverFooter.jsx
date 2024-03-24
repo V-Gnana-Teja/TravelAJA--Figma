@@ -6,7 +6,7 @@ import {FaDribbble } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 
-const Footer = () => {
+const DiscoverFooter = () => {
   return (
     <div className='bg-green-800 text-white mt-12 '>
       <div className='container mx-auto py-12 px-6 flex flex-col md:flex-row items-start md:items-center justify-between'>
@@ -46,9 +46,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='pl-12 pd-12'>
+      <div className='pl-12 pd-12 '>
         <h1 className='font-bold text-4xl'>Gnana Teja</h1>
-        <div className='mt-6 flex gap-3 text-4xl border-3xl'>
+        <div className='mt-6 flex gap-3 text-4xl border-3xl cursor-pointer'>
             <FaInstagram />
             <FaFacebook />
             <FaTwitter />
@@ -62,4 +62,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default DiscoverFooter;

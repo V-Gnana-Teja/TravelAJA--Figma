@@ -1,11 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
+import Discover from './Discover'; 
+import './index.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Router>
+    <Routes>
+  <Route path="/" element={<App />} />
+  <Route path="/discover" element={<Discover />} />
+</Routes>
+    </Router>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
+ 
