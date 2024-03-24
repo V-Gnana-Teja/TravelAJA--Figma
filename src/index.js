@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
 import Discover from './Discover'; 
+import Services from './Services'
 import './index.css';
 
 ReactDOM.render(
@@ -11,6 +12,7 @@ ReactDOM.render(
     <Routes>
   <Route path="/" element={<App />} />
   <Route path="/discover" element={<Discover />} />
+  <Route path="/Services" element={<Services />} />
 </Routes>
     </Router>
   </React.StrictMode>,
