@@ -55,9 +55,9 @@ const Carousel = () => {
         </div>
 
       
-      <div className="mt-12 grid grid-cols-3 gap-4 pl-5 cursor-pointer">
+      <div className="mt-12 grid grid-cols-3 gap-4 pl-5 ">
 
-        <div className="max-w-sm rounded-md  overflow-hidden shadow-2xl ">
+        <div className="max-w-sm rounded-md  overflow-hidden shadow-2xl cursor-pointer">
           <img src={Dest1} alt="/" className="w-full  border-8 border-white" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Taman Nasional Komodo</div>
@@ -72,7 +72,7 @@ const Carousel = () => {
           </div>
         </div>
 
-        <div className="max-w-sm rounded-md overflow-hidden shadow-2xl">
+        <div className="max-w-sm rounded-md overflow-hidden shadow-2xl cursor-pointer">
           <img src={Dest2} alt="/" className="w-full border-8 border-white" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Taman Nasional Bunaken</div>
@@ -87,7 +87,7 @@ const Carousel = () => {
           </div>
         </div>
 
-        <div className="max-w-sm rounded-md overflow-hidden shadow-2xl">
+        <div className="max-w-sm rounded-md overflow-hidden shadow-2xl cursor-pointer">
           <img src={Dest3} alt="/" className="w-full border-8 border-white" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Raja Ampat, Papua Barat</div>
@@ -102,7 +102,7 @@ const Carousel = () => {
           </div>
         </div>
 
-        <div className="max-w-sm rounded-md overflow-hidden shadow-2xl">
+        <div className="max-w-sm rounded-md overflow-hidden shadow-2xl cursor-pointer">
           <img src={Dest4} alt="/" className="w-full border-8 border-white" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Kepulauan Wakatobi</div>
@@ -117,7 +117,7 @@ const Carousel = () => {
           </div>
         </div>
 
-        <div className="max-w-sm rounded-md overflow-hidden shadow-2xl">
+        <div className="max-w-sm rounded-md overflow-hidden shadow-2xl cursor-pointer">
           <img src={Dest5} alt="/" className="w-full border-8 border-white" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Gili Trawangan, Lombok</div>
@@ -132,7 +132,7 @@ const Carousel = () => {
           </div>
         </div>
 
-        <div className="max-w-sm rounded-md overflow-hidden shadow-2xl">
+        <div className="max-w-sm rounded-md overflow-hidden shadow-2xl cursor-pointer">
           <img src={Dest6} alt="/" className="w-full  border-8 border-white" />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Taman Nasional Bromo</div>

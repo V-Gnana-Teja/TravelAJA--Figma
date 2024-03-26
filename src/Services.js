@@ -4,7 +4,7 @@ import ServiceHero from './components/ServiceHero';
 import ServiceBenefits from './components/ServiceBenefits';
 import ServiceFooter from './components/ServiceFooter';
 
-const Discover = () => {
+const Services = () => {
   return (
     <div>
         <ServicesNavbar />
@@ -16,4 +16,4 @@ const Discover = () => {
   );
 };
 
-export default Discover;
+export default Services;

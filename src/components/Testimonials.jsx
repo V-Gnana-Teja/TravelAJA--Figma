@@ -8,7 +8,7 @@ import Img6 from '../assets/images/Frame 9 (5).png';
 
 const TestimonialCard = ({ img, name, text, isSelected, onClick }) => (
   <div
-    className={`max-w-sm  overflow-hidden shadow-2xl ${isSelected ? 'bg-green-500' : ''}`}
+    className={`max-w-sm cursor-pointer overflow-hidden shadow-2xl ${isSelected ? 'bg-green-500' : ''}`}
     onClick={onClick}
   >
     <div className="px-6 py-4">
@@ -44,7 +44,7 @@ const Testimonials = () => {
         <h1 className="text-4xl font-bold">What they say about us</h1>
       </div>
 
-      <div className="mt-12 grid grid-cols-3 gap-4 pl-6">
+      <div className="mt-12 grid grid-cols-3 gap-4 pl-6 ">
         {cards.map((card, index) => (
           <TestimonialCard
             key={index}
