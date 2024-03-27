@@ -3,13 +3,12 @@ import ContactNavbar from "./components/ContactNavbar";
 import ContactHero from "./components/ContactHero";
 import ContactFooter from "./components/ContactFooter";
 
-
 const Contact = () => {
   return (
     <div>
-        <ContactNavbar />
-        <ContactHero />
-        <ContactFooter />
+      <ContactNavbar />
+      <ContactHero />
+      <ContactFooter />
     </div>
   );
 };

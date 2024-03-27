@@ -54,9 +54,9 @@ const ContactFooter = () => {
         </div>
       </div>
 
-      <div className="pl-12 pd-12">
+      <div className="pl-12 p-12">
         <h1 className="font-bold text-4xl">Gnana Teja</h1>
-        <div className="mt-6 flex gap-3 text-4xl border-3xl">
+        <div className="mt-6 md-6 flex gap-3 text-4xl border-3xl">
           <FaInstagram />
           <FaFacebook />
           <FaTwitter />

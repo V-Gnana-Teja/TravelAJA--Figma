@@ -132,7 +132,7 @@ const DiscoverHero = () => {
           </div>
         </div>
 
-        <div >
+        <div>
           <div>
             <p className="text-xl w-[800px] p-8 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
@@ -144,10 +144,9 @@ const DiscoverHero = () => {
               sit risus eu, sagittis nulla. Facilisis urna, mi pharetra sed.
             </p>
           </div>
-         
-          </div>
         </div>
       </div>
+    </div>
   );
 };
 

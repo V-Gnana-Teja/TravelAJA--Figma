@@ -8,12 +8,42 @@ import { MdTour } from "react-icons/md";
 
 const ServiceBenefits = () => {
   const cardsData = [
-    { icon: <FaHiking className="w-[50px] h-[50px]" />, title: "Hiking", content: "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis." },
-    { icon: <TbRollerSkating className="w-[50px] h-[50px]" />, title: "skating", content: "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis." },
-    { icon: <GiMountainClimbing className="w-[50px] h-[50px]" />, title: "Climbing", content: "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis." },
-    { icon: <MdTour className="w-[50px] h-[50px]" />, title: "Tours", content: "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis." },
-    { icon: <MdScubaDiving className="w-[50px] h-[50px]" />, title: "Diving", content: "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis." },
-    { icon: <FaFly className="w-[50px] h-[50px]" />, title: "Flying", content: "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis." },
+    {
+      icon: <FaHiking className="w-[50px] h-[50px]" />,
+      title: "Hiking",
+      content:
+        "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.",
+    },
+    {
+      icon: <TbRollerSkating className="w-[50px] h-[50px]" />,
+      title: "skating",
+      content:
+        "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.",
+    },
+    {
+      icon: <GiMountainClimbing className="w-[50px] h-[50px]" />,
+      title: "Climbing",
+      content:
+        "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.",
+    },
+    {
+      icon: <MdTour className="w-[50px] h-[50px]" />,
+      title: "Tours",
+      content:
+        "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.",
+    },
+    {
+      icon: <MdScubaDiving className="w-[50px] h-[50px]" />,
+      title: "Diving",
+      content:
+        "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.",
+    },
+    {
+      icon: <FaFly className="w-[50px] h-[50px]" />,
+      title: "Flying",
+      content:
+        "Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.",
+    },
   ];
 
   return (
@@ -24,7 +54,10 @@ const ServiceBenefits = () => {
       </div>
       <div className="grid grid-cols-3 gap-4 mt-8 mx-auto max-w-7xl">
         {cardsData.map((card, index) => (
-          <div key={index} className="bg-white  rounded-lg p-6 flex flex-col items-start">
+          <div
+            key={index}
+            className="bg-white  rounded-lg p-6 flex flex-col items-start"
+          >
             <div className="flex items-center mb-4">
               {card.icon}
               <h3 className="text-2xl font-bold ml-2">{card.title}</h3>

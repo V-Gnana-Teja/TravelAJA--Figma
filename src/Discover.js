@@ -1,12 +1,12 @@
-import React from 'react';
-import DiscoverNavbar from './components/DiscoverNavbar'; 
-import DiscoverHero from './components/DiscoverHero';
-import DiscoverFooter from './components/DiscoverFooter';
+import React from "react";
+import DiscoverNavbar from "./components/DiscoverNavbar";
+import DiscoverHero from "./components/DiscoverHero";
+import DiscoverFooter from "./components/DiscoverFooter";
 
 const Discover = () => {
   return (
     <div>
-      <DiscoverNavbar /> 
+      <DiscoverNavbar />
       <DiscoverHero />
       <DiscoverFooter />
     </div>

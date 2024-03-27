@@ -13,7 +13,6 @@ import { PiWineFill } from "react-icons/pi";
 import { FaCampground } from "react-icons/fa6";
 import { LiaMapMarkedAltSolid } from "react-icons/lia";
 
-
 const ServiceHero = () => {
   return (
     <div>
@@ -81,7 +80,6 @@ const ServiceHero = () => {
           </button>
         </div>
       </div>
-
       <div className="flex items-center justify-between p-12">
         <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
           <img
@@ -138,7 +136,6 @@ const ServiceHero = () => {
           </div>
         </div>
       </div>
-
       <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
         <img
           src={Img4}
@@ -160,36 +157,34 @@ const ServiceHero = () => {
         <div className="absolute top-0 left-[50%] w-[50%] h-full flex flex-col justify-center items-center p-4 bg-opacity-0 bg-black text-white text-start">
           <div className="grid grid-cols-2 grid-rows-2 gap-6 ">
             <div className="bg-white text-black shadow-md p-4 rounded-lg cursor-pointer">
-            <FaBabyCarriage className=" w-10 h-10"/>
+              <FaBabyCarriage className=" w-10 h-10" />
 
               <h2 className="text-3xl font-bold mb-2">Baby</h2>
               <p>FREE BUGGY</p>
             </div>
             <div className="bg-white text-black shadow-md p-4 rounded-lg cursor-pointer">
-            <PiWineFill  className=" w-10 h-10"/>
+              <PiWineFill className=" w-10 h-10" />
               <h2 className="text-3xl font-bold mb-2">Drinks</h2>
-              
 
               <p>INCLUDED</p>
             </div>
             <div className="bg-white text-black shadow-md p-4 rounded-lg cursor-pointer">
-            <FaCampground   className=" w-10 h-10"/>
+              <FaCampground className=" w-10 h-10" />
               <h2 className="text-3xl font-bold mb-2">Camp</h2>
-              
 
               <p>INCLUDED</p>
             </div>
-            
+
             <div className="bg-white text-black shadow-md p-4 rounded-lg cursor-pointer">
-            <LiaMapMarkedAltSolid    className=" w-10 h-10"/>
+              <LiaMapMarkedAltSolid className=" w-10 h-10" />
               <h2 className="text-3xl font-bold mb-2">World</h2>
-              
 
               <p>CUSTOM TOURS</p>
             </div>
           </div>
         </div>
-      </div>  </div>
+      </div>{" "}
+    </div>
   );
 };
 

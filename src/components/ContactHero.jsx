@@ -108,18 +108,36 @@ const ContactHero = () => {
 
           <div className="flex justify-between mt-12">
             <ul className="font-semibold text-lg">
-                <li className="p-2">Address: <span className="text-end font-normal">64/E, Jayanagar</span></li>
-                <li className="p-2">City: <span className="text-end font-normal">Banglore,india</span></li>
-                <li className="p-2">open: <span className="text-end font-normal">At 8 Am</span></li>
+              <li className="p-2">
+                Address:{" "}
+                <span className="text-end font-normal">64/E, Jayanagar</span>
+              </li>
+              <li className="p-2">
+                City:{" "}
+                <span className="text-end font-normal">Banglore,india</span>
+              </li>
+              <li className="p-2">
+                open: <span className="text-end font-normal">At 8 Am</span>
+              </li>
             </ul>
 
             <ul className="font-semibold text-lg">
-                <li className="p-2">Phone: <span className="text-end font-normal"> +91 9876543210</span></li>
-                <li className="p-2">Email: <span className="text-end font-normal">Fake-email@gmail.com</span></li>
-                <li className="p-2">Close: <span className="text-end font-normal">At 8 Pm</span></li>
+              <li className="p-2">
+                Phone:{" "}
+                <span className="text-end font-normal"> +91 9876543210</span>
+              </li>
+              <li className="p-2">
+                Email:{" "}
+                <span className="text-end font-normal">
+                  Fake-email@gmail.com
+                </span>
+              </li>
+              <li className="p-2">
+                Close: <span className="text-end font-normal">At 8 Pm</span>
+              </li>
             </ul>
           </div>
-          <p className="uppercase mt-8 text-xl">   Available at 9am-10pm</p>
+          <p className="uppercase mt-8 text-xl"> Available at 9am-10pm</p>
           <p className="uppercase mt-8 text-xl">Contact-no :</p>
           <p className="font-bold text-6xl">+91 987 654 3210</p>
         </div>

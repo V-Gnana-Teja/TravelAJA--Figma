@@ -23,7 +23,9 @@ const AboutHero = () => {
         <div className="mt-14 grid grid-cols-3 gap-8">
           <div className="flex flex-col items-center justify-between bg-white p-6 rounded-lg ">
             <BiCheckShield className="w-[100px] h-[100px] text-green-500" />
-            <h1 className="text-xl font-bold mt-4 cursor-pointer">Best price guarantee</h1>
+            <h1 className="text-xl font-bold mt-4 cursor-pointer">
+              Best price guarantee
+            </h1>
             <p className="text-sm mt-2">
               Lorem ipsum dolor sit amet, consectetur <br />
               adipiscing elit
@@ -32,7 +34,9 @@ const AboutHero = () => {
 
           <div className="flex flex-col items-center justify-between bg-white p-6 rounded-lg ">
             <GrSchedulePlay className="w-[100px] h-[100px] text-green-500" />
-            <h1 className="text-xl font-bold mt-4 cursor-pointer">Easy Booking</h1>
+            <h1 className="text-xl font-bold mt-4 cursor-pointer">
+              Easy Booking
+            </h1>
             <p className="text-sm mt-2">
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit
             </p>
@@ -40,7 +44,9 @@ const AboutHero = () => {
 
           <div className="flex flex-col items-center justify-between bg-white p-6 rounded-lg ">
             <RiCustomerService2Line className="w-[100px] h-[100px] text-green-500" />
-            <h1 className="text-xl font-bold mt-4 cursor-pointer">Customer Service 24h</h1>
+            <h1 className="text-xl font-bold mt-4 cursor-pointer">
+              Customer Service 24h
+            </h1>
             <p className="text-lg mt-2">
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit
             </p>
@@ -48,7 +54,7 @@ const AboutHero = () => {
         </div>
       </div>
 
-      <div className="flex flex-row p-12" >
+      <div className="flex flex-row p-12">
         <div className="w-3/4 items-center justify-center mt-[90px]">
           <h1 className="font-bold text-xl">About Travelaja.com</h1>
 
@@ -72,7 +78,6 @@ const AboutHero = () => {
         <div>
           <img src={Img1} alt="/" />
         </div>
-      
       </div>
     </div>
   );
