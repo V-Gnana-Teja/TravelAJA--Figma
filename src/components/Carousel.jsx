@@ -7,8 +7,7 @@ import Dest4 from "../assets/images/Group 14 (3).png";
 import Dest5 from "../assets/images/Group 14 (4).png";
 import Dest6 from "../assets/images/Group 14 (5).png";
 import Navi from "../assets/images/cursor-4196 (1).png";
-
-const Carousel = () => {
+ const Carousel = () => {
   return (
     <div>
       <div className="mt-12 flex p-4">

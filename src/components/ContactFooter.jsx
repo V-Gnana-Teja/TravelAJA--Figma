@@ -57,11 +57,11 @@ const ContactFooter = () => {
       <div className="pl-12 p-12">
         <h1 className="font-bold text-4xl">Gnana Teja</h1>
         <div className="mt-6 md-6 flex gap-3 text-4xl border-3xl">
-          <FaInstagram />
-          <FaFacebook />
-          <FaTwitter />
-          <FaDribbble />
-          <FaGithub />
+          <FaInstagram className="cursor-pointer" />
+          <FaFacebook className="cursor-pointer" />
+          <FaTwitter className="cursor-pointer" />
+          <FaDribbble className="cursor-pointer" />
+          <FaGithub className="cursor-pointer" />
         </div>
       </div>
     </div>
