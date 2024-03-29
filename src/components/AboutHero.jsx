@@ -1,15 +1,14 @@
 import React from "react";
-import Banner from "../assets/images/Banner (3).png";
+import jsonData from "../about.json";
 import { BiCheckShield } from "react-icons/bi";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { GrSchedulePlay } from "react-icons/gr";
-import Img1 from "../assets/images/Rectangle 25.png";
 
 const AboutHero = () => {
   return (
     <div>
       <div>
-        <img className="w-full" src={Banner} alt="/" />
+        <img className="w-full" src={jsonData.bannerImage.url} alt={jsonData.bannerImage.alt} />
       </div>
 
       <div className="mt-14">
@@ -76,7 +75,7 @@ const AboutHero = () => {
         </div>
 
         <div>
-          <img src={Img1} alt="/" />
+          <img src={jsonData.aboutImage.url} alt={jsonData.aboutImage.alt} />
         </div>
       </div>
     </div>

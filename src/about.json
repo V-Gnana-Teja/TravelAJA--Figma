@@ -1,0 +1,23 @@
+{
+  "bannerImage": {
+    "url": "./assets/images/Banner (3).png",
+    "alt": "Banner Image"
+  },
+  "aboutImage": {
+    "url": "./assets/images/Rectangle 25.png",
+    "alt": "About Image"
+  },
+  "teamImages": [
+    "./assets/images/Rectangle 30.png",
+    "./assets/images/Rectangle 30 (1).png",
+    "./assets/images/Rectangle 30 (4).png",
+    "./assets/images/Rectangle 30 (2).png",
+    "./assets/images/Rectangle 30 (3).png"
+  ],
+  "otherImages": [
+    "./assets/images/emojione-monotone_ship.png",
+    "./assets/images/healthicons_city-outline.png",
+    "./assets/images/fontisto_island.png",
+    "./assets/images/gis_map-route.png"
+  ]
+}

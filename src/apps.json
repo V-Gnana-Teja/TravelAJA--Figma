@@ -1,0 +1,72 @@
+{
+  "images": [
+    {
+      "url": "./assets/images/Frame 9.png",
+      "alt": "Image 1"
+    },
+    {
+      "url": "./assets/images/Frame 9 (1).png",
+      "alt": "Image 2"
+    },
+    {
+      "url": "./assets/images/Frame 9 (2).png",
+      "alt": "Image 3"
+    },
+    {
+      "url": "./assets/images/Frame 9 (3).png",
+      "alt": "Image 4"
+    },
+    {
+      "url": "./assets/images/Frame 9 (4).png",
+      "alt": "Image 5"
+    },
+    {
+      "url": "./assets/images/Frame 9 (5).png",
+      "alt": "Image 6"
+    }
+  ],
+  "destinations": [
+    {
+      "id": 1,
+      "image": "/assets/images/Group14.png",
+      "title": "Taman Nasional Komodo",
+      "price": "Rp.7,5jt",
+      "daysForTrips": "7 days for trips"
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/Group 14 (1).png",
+      "title": "Taman Nasional Bunaken",
+      "price": "Rp.10,5jt",
+      "daysForTrips": "9 days for trips"
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/Group 14 (2).png",
+      "title": "Raja Ampat, Papua Barat",
+      "price": "Rp.20,5jt",
+      "daysForTrips": "14 days for trips"
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/Group 14 (3).png",
+      "title": "Kepulauan Wakatobi",
+      "price": "Rp.9,5jt",
+      "daysForTrips": "12 days for trips"
+    },
+    {
+      "id": 5,
+      "image": "./assets/images/Group 14 (4).png",
+      "title": "Gili Trawangan, Lombok",
+      "price": "Rp.6,5jt",
+      "daysForTrips": "7 days for trips"
+    },
+    {
+      "id": 6,
+      "image": "./assets/images/Group 14 (5).png",
+      "title": "Taman Nasional Bromo",
+      "price": "Rp.9,5jt",
+      "daysForTrips": "7 days for trips"
+    }
+  ]
+}

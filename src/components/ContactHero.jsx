@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import Banner from "../assets/images/Banner (4).png";
-import Img1 from "../assets/images/Mask group.png";
+import imagesData from "../contact.json";
 
 const ContactHero = () => {
   const [formData, setFormData] = useState({
@@ -22,10 +21,15 @@ const ContactHero = () => {
     console.log(formData);
   };
 
+  const getImagePath = (imageId) => {
+    const image = imagesData.images.find((img) => img.id === imageId);
+    return image ? image.path : null;
+  };
+
   return (
     <div>
       <div>
-        <img className="w-full" src={Banner} alt="/" />
+        <img className="w-full" src={getImagePath(1)} alt="/" />
       </div>
 
       <div className="flex">
@@ -103,7 +107,7 @@ const ContactHero = () => {
 
         <div className="w-1/2 p-8 mt-14">
           <div>
-            <img src={Img1} alt="/" />
+            <img src={getImagePath(2)} alt="/" />
           </div>
 
           <div className="flex justify-between mt-12">

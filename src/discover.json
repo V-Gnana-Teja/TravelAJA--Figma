@@ -1,0 +1,31 @@
+[
+    {
+      "name": "banner",
+      "url": "./assets/images/Banner.png"
+    },
+    {
+      "name": "map",
+      "url": "./assets/images/Rectangle 16.png"
+    },
+    {
+      "name": "img1",
+      "url": "./assets/images/Rectangle 17 (1).png"
+    },
+    {
+      "name": "pin",
+      "url": "./assets/images/pin-48.png"
+    },
+    {
+      "name": "img2",
+      "url": "./assets/images/Rectangle 18 (1).png"
+    },
+    {
+      "name": "img3",
+      "url": "./assets/images/Rectangle 19.png"
+    },
+    {
+      "name": "img4",
+      "url": "./assets/images/Rectangle 20.png"
+    }
+  ]
+  

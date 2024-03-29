@@ -1,0 +1,15 @@
+{
+    "images": [
+      {
+        "id": 1,
+        "name": "Banner",
+        "path": "./assets/images/Banner (4).png"
+      },
+      {
+        "id": 2,
+        "name": "Img1",
+        "path": "./assets/images/Mask group.png"
+      }
+    ]
+  }
+  
