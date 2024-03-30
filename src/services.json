@@ -1,0 +1,76 @@
+{
+    "bannerImage": "./assets/images/Banner (1).png",
+    "services": [
+      {
+        "icon": "ImPriceTags",
+        "title": "Get Best Price",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu eu, dui tortor, proin eu lectus pellentesque. A cras suscipit amet"
+      },
+      {
+        "icon": "RiTreasureMapFill",
+        "title": "All Destination",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu eu, dui tortor, proin eu lectus pellentesque. A cras suscipit amet"
+      },
+      {
+        "icon": "TfiMapAlt",
+        "title": "City Tours",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu eu, dui tortor, proin eu lectus pellentesque. A cras suscipit amet"
+      },
+      {
+        "icon": "MdOutlinePhotoCamera",
+        "title": "Photography",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu eu, dui tortor, proin eu lectus pellentesque. A cras suscipit amet"
+      }
+    ],
+    "featuredServices": [
+      {
+        "image": "./assets/images/Rectangle 21.png",
+        "title": "Water City Dreams",
+        "date": "September 18, 2022",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+        "buttonText": "Read More"
+      },
+      {
+        "image": "./assets/images/Rectangle 21 (1).png",
+        "title": "Hokkaido",
+        "date": "September 18, 2022",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+        "buttonText": "Read More"
+      },
+      {
+        "image": "./assets/images/Rectangle 21 (2).png",
+        "title": "Blue Lagoon",
+        "date": "September 18, 2022",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+        "buttonText": "Read More"
+      }
+    ],
+    "facilities": {
+      "image": "./assets/images/Rectangle 22 (1).png",
+      "title": "Facilities",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non eni"
+    },
+    "additionalServices": [
+      {
+        "icon": "FaBabyCarriage",
+        "title": "Baby",
+        "description": "FREE BUGGY"
+      },
+      {
+        "icon": "PiWineFill",
+        "title": "Drinks",
+        "description": "INCLUDED"
+      },
+      {
+        "icon": "FaCampground",
+        "title": "Camp",
+        "description": "INCLUDED"
+      },
+      {
+        "icon": "LiaMapMarkedAltSolid",
+        "title": "World",
+        "description": "CUSTOM TOURS"
+      }
+    ]
+  }
+  

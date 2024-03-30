@@ -1,0 +1,62 @@
+{
+
+    "banner": "./assets/images/Banner (2).png",
+    
+    "images": [
+      {
+        "id": 1,
+        "path": "./assets/images/Rectangle 24 (2).png",
+        "altText": "Image 1",
+        "title": "Where Can I Go? 5 Amazing Countries That Are Open Right Now"
+      },
+      {
+        "id": 2,
+        "path": "./assets/images/Rectangle 24 (3).png",
+        "altText": "Image 2",
+        "title": "Beautiful View of Indonesia's Natural Hills"
+      },
+      {
+        "id": 3,
+        "path": "./assets/images/Rectangle 24 (4).png",
+        "altText": "Image 3",
+        "title": "10 Indonesian Destinations You Should Visit This Year"
+      },
+      {
+        "id": 4,
+        "path": "./assets/images/Rectangle 24 (5).png",
+        "altText": "Image 4",
+        "title": "5 Mountains That You Must Visit While in Indonesia"
+      },
+      {
+        "id": 5,
+        "path": "./assets/images/Rectangle 24 (6).png",
+        "altText": "Image 5",
+        "title": "The Most Interesting Historical Monuments in Indonesia"
+      },
+      {
+        "id": 6,
+        "path": "./assets/images/Rectangle 24 (7).png",
+        "altText": "Image 6",
+        "title": "Travel Booking Before Missing the Discount"
+      },
+      {
+        "id": 7,
+        "path": "./assets/images/Rectangle 24 (8).png",
+        "altText": "Image 7",
+        "title": "10 Indonesian Destinations You Should Visit This Year"
+      },
+      {
+        "id": 8,
+        "path": "./assets/images/Rectangle 24 (9).png",
+        "altText": "Image 8",
+        "title": "Travel Booking Before Missing the Discount"
+      },
+      {
+        "id": 9,
+        "path": "./assets/images/Rectangle 24 (10).png",
+        "altText": "Image 9",
+        "title": "Where Can I Go? 5 Amazing Countries That Are Open Right Now"
+      }
+    ]
+  }
+  
