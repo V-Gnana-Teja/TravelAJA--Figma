@@ -14,20 +14,20 @@ const AboutTeam = () => {
     <div>
       <div className="flex items-center justify-between p-12">
         {teamMembers.map((member, index) => (
-          <div key={index} className="text-center">
+          <div key={index} className="text-center ">
             <img
-              src={imagePaths.teamImages[index]}
+              src={imagePaths.teamImages[index] }
               alt="/"
             />
-            <div className="font-bold mt-2">{member.name}</div>
-            <div className="mt-2">{member.designation}</div>
+            <div className="font-bold mt-2 cursor-pointer">{member.name}</div>
+            <div className="mt-2 cursor-pointer">{member.designation}</div>
           </div>
         ))}
       </div>
 
       <div className="flex items-center justify-between p-[100px]">
         {imagePaths.otherImages.map((imgPath, index) => (
-          <div key={index} className="text-center">
+          <div key={index} className="text-center cursor-pointer">
             <img src={imgPath} alt="/" />
             <div className="text-gray-500 mt-2">
               {getCorrespondingText(index)}
