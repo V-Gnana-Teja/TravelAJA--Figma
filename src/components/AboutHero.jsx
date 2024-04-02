@@ -1,5 +1,5 @@
 import React from "react";
-import jsonData from "../apps.json";
+import jsonData from "../about.json";
 import { BiCheckShield } from "react-icons/bi";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { GrSchedulePlay } from "react-icons/gr";
